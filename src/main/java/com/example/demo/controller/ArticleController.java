@@ -30,7 +30,7 @@ public class ArticleController {
 		article.setPv(123);
 		article.setContent(content);
 		article.setTitle("一心一意");
-		article.setSummary("意涵老婆啊");
+		article.setSummary("意涵老婆啊啊");
 		
 		articleRepository.save(article);
 	
