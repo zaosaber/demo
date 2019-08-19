@@ -23,7 +23,7 @@ public class RedisController {
 		User user = new User();
 		user.setAge(22);
 		user.setCreateTime(new Date());
-		user.setName("陈意涵estelle是我老婆啊");
+		user.setName("陈意涵estelle是我老婆啊ya");
 		user.setPhone("15999930599");
 		String jsonString = JsonUtils.obj2String(user);
 	    redisClient.set("wodelaopo:estellea", jsonString);
